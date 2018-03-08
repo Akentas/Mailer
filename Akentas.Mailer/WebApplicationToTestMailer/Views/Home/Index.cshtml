@@ -1,0 +1,52 @@
+﻿@{
+    ViewBag.Title = "Home";
+}
+
+<div class="jumbotron">
+    <h1>Akentas Mailer</h1>
+    <p class="lead">Simple ASP.NET MVC site to test the Akentas.Mailer library</p>
+    <hr/>
+    <p><strong>Please check and set the mail settings in the web.config first!</strong></p>
+    <p>Example how to use a real SMTP Client:</p>
+    <pre>
+&lt;system.net&gt;
+    &lt;mailSettings&gt;
+        &lt;smtp from="akentas-mailer@yourprovider.de"&gt;
+            &lt;network host="smtp.yourprovider.com" userName="email@yourprovider.com" password="yourpassword" enableSsl="true" /&gt;
+        &lt;/smtp&gt;
+    &lt;/mailSettings&gt;
+&lt;/system.net&gt;
+</pre>
+    
+    <p>Example how to use a specific pickup directory (no SMTP required - just a local folder):</p>
+<pre>
+&lt;system.net&gt;
+    &lt;mailSettings&gt;
+        &lt;smtp deliveryMethod="SpecifiedPickupDirectory"&gt;
+            &lt;specifiedPickupDirectory pickupDirectoryLocation="c:\temp\maildrop\" /&gt;
+        &lt;/smtp&gt;
+    &lt;/mailSettings&gt;
+&lt;/system.net&gt;
+</pre>
+</div>
+
+<div class="row">
+    <div class="col-md-6">
+        <h2>Welcome Template</h2>
+        <p>
+            Welcome Template example
+        </p>
+        <p>
+            @Html.ActionLink("Test the template »", "Index", "TestTemplateWelcome", new { @class = "btn btn-default" })
+        </p>
+    </div>
+    <div class="col-md-6">
+        <h2>Reset-Password Template</h2>
+        <p>
+            Reset-Password Template example
+        </p>
+        <p>
+            @Html.ActionLink("Test the template »", "Index", "TestTemplateResetPassword", new { @class = "btn btn-default" })
+        </p>
+    </div>
+</div>

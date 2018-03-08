@@ -1,0 +1,20 @@
+﻿body {
+    padding: 2rem;
+    padding-top: 50px;
+}
+
+.body-content {
+    padding: 0 1rem;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+.panel-output {
+    padding: 1rem 0;
+    font-style: italic;
+}
