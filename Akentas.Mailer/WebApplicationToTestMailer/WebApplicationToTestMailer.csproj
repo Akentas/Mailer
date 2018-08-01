@@ -207,12 +207,6 @@
     <None Include="packages.config" />
     <Content Include="Scripts\jquery-1.10.2.min.map" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Akentas.Mailer\Akentas.Mailer.csproj">
-      <Project>{D4D5FE90-3F06-43FC-9233-8310E77ADBB4}</Project>
-      <Name>Akentas.Mailer</Name>
-    </ProjectReference>
-  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

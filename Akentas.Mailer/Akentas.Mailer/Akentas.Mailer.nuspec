@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>$id$</id>
+    <version>1.0.0-netframework</version>
+    <title>$title$</title>
+    <authors>Miro Grenda</authors>
+    <owners>Akentas</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Simple SMTP mailer using plaintext templates - written in C# (dotnetframework). You can use this library to send emails from your.NET program.</description>
+    <releaseNotes>.NET Framework version</releaseNotes>
+    <copyright></copyright>
+    <tags>smtp mailer</tags>
+  </metadata>
+</package>

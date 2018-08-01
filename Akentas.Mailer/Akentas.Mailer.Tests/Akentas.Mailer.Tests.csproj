@@ -9,7 +9,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Akentas.Mailer.Tests</RootNamespace>
     <AssemblyName>Akentas.Mailer.Tests</AssemblyName>
-    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">15.0</VisualStudioVersion>
@@ -19,6 +19,7 @@
     <TestProjectType>UnitTest</TestProjectType>
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -76,7 +77,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Akentas.Mailer\Akentas.Mailer.csproj">
-      <Project>{d4d5fe90-3f06-43fc-9233-8310e77adbb4}</Project>
+      <Project>{3ce064c6-8f48-4fb1-84ef-d9b6db42ec22}</Project>
       <Name>Akentas.Mailer</Name>
     </ProjectReference>
   </ItemGroup>
